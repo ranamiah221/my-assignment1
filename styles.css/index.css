@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Lato;
+}
+/* Header section start */
+.header-container{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    width: 1920px;
+    height: 850px;
+    align-items: center;
+    padding: 0px 240px;
+    border: 2px solid #E554731A;
+    justify-content: space-between;
+   
+}
+.header-image-controls{
+    width: 635px;
+    height: 800px;
+}
+.header-image-section{
+    margin-top: 50px;
+    gap: 97px;
+}
+.header-title{
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+}
+.header-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+/* All btn uses this class */
+.btn-primary{
+    margin-top: 32px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    height: 64px;
+    width: 177px;
+    border: 0px;
+
+}
+/* Main section Start */
