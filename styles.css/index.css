@@ -6,24 +6,28 @@ body{
     font-family: Lato;
 }
 /* Header section start */
+.width-height{
+    height: 850px;
+    width: 1920px;   
+}
 .header-container{
     background: rgba(229, 84, 115, 0.10);
     display: flex;
-    width: 1920px;
-    height: 850px;
     align-items: center;
-    padding: 0px 240px;
+    padding-left:240px;
+    padding-right: 240px;
     border: 2px solid #E554731A;
-    justify-content: space-between;
+    justify-content:space-between;
+    
    
 }
 .header-image-controls{
     width: 635px;
     height: 800px;
+   
 }
 .header-image-section{
-    margin-top: 50px;
-    gap: 97px;
+   padding-top: 50px;
 }
 .header-title{
     color: #272727;
@@ -52,3 +56,101 @@ body{
 
 }
 /* Main section Start */
+.primary-title
+{   text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 240px;
+}
+.primary-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 32px;
+
+
+}
+.images-container{
+    display: flex;
+    /* padding: 0px 240px; */
+    padding-left:240px;
+    padding-right: 240px;
+    justify-content: space-between;
+    gap: 24px;
+}
+.images-sub-container{
+    margin-top: 50px;
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+   
+}
+#image1-controls{
+    margin-top: 110px;
+    margin-left: 78px;
+    margin-right: 78px;
+}
+#image2-controls{
+    margin: 117px 47px 51px 47px; 
+    
+}
+#image3-controls{
+    margin-top: 67px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.image-text-controls{
+    margin-top: 32px;
+    text-align: center;
+    text-decoration: underline;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.marketing-container{
+   display: flex;
+   margin: 120px 240px;
+   justify-content: space-between;
+   border-radius: 8px;
+   background: rgba(39, 39, 39, 0.05); 
+
+
+}
+.marketing-element{
+    height: 88px;
+    width: 88px;
+}
+.delivery
+{
+    padding-top: 86px;
+    padding-left: 317px;
+    text-align: center;
+
+}
+.stock{
+    padding-top: 86px;
+    text-align: center;
+
+   
+}
+.contract{
+    padding-top: 86px;
+    padding-right: 332px;
+    text-align: center;
+
+    
+}
+.marketing-text-controls{
+    padding-top: 24px;
+    padding-bottom: 87px;
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+/* section 2 start */
