@@ -113,38 +113,36 @@ body{
 }
 .marketing-container{
    display: flex;
-   margin: 120px 240px;
+   margin-top: 120px;
+   margin-right: 240px;
+   margin-bottom: 120px;
+   margin-left: 240px;
    justify-content: space-between;
    border-radius: 8px;
-   background: rgba(39, 39, 39, 0.05); 
-   
-
+   background-color: rgba(39, 39, 39, 0.05);
 }
+
 .marketing-element{
     height: 88px;
     width: 88px;
 }
-.delivery
-{
+.delivery{
     padding-top: 86px;
     padding-left: 317px;
     text-align: center;
-
-
 
 }
 .stock{
     padding-top: 86px;
     text-align: center;
-
-   
+    padding-left: 250px;
+    padding-right: 250px; 
 }
 .contract{
     padding-top: 86px;
-    padding-right: 332px;
-    text-align: center;
+    padding-right:232px; 
+    text-align: center; 
 
-    
 }
 .marketing-text-controls{
     padding-top: 24px;
@@ -309,4 +307,34 @@ body{
      text-align: center;
      padding-top: 15px;
 
+}
+/* Bonus section */
+#primary-title{
+    text-align: center;
+    color:red;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bonus-section{
+    padding-left:240px;
+    padding-right: 240px;
+}
+.btn-bonus{
+    margin-top: 20px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    height: 64px;
+    width: 177px;
+    border: 0px; 
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
