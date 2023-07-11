@@ -130,6 +130,8 @@ body{
     padding-left: 317px;
     text-align: center;
 
+
+
 }
 .stock{
     padding-top: 86px;
@@ -192,4 +194,73 @@ body{
 /* section 3 Instagram */
 .section3-container{
     display: flex;
+    padding-left:240px;
+    padding-right: 240px;
+    margin-top: 50px;
+    justify-content: space-between;
+    gap: 24px;
+    background: #FFF;
 }
+.section3-image-height-width{
+    width: 342px;
+    height: 396px;
+}
+.section3-sub-container{
+    gap: 24px;
+}
+/* start contract section */
+.contract-section{
+    margin: 128px 240px;
+    background-image: url("./Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contract-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+}
+.contract-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.input-controls{
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0px;
+    padding-left: 22px;
+    gap: 25px;
+    
+}
+.email-button-container{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 125px;
+    flex-direction: row;
+    gap: 25px;
+    
+} 
+#btn-subscribe{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    height: 64px;
+    width: 177px;
+    border: 0px;   
+}
+
