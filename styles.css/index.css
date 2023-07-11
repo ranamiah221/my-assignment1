@@ -117,7 +117,7 @@ body{
    justify-content: space-between;
    border-radius: 8px;
    background: rgba(39, 39, 39, 0.05); 
-
+   
 
 }
 .marketing-element{
@@ -154,3 +154,42 @@ body{
 
 }
 /* section 2 start */
+.banner-container{
+    margin-top: 128px;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 215px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 32px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+     
+}
+.banner-textfiled{
+    padding-top: 230px;
+    padding-bottom: 182px;
+}
+.banner-image{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 429px ;
+
+}
+#banner-title-special{
+    color: #E55473;
+}
+/* section 3 Instagram */
+.section3-container{
+    display: flex;
+}
